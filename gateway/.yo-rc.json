@@ -1,0 +1,57 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "gateway",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.15.0"
+      }
+    ],
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "vue",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1650728954642,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.8.1",
+    "jwtSecretKey": "Y2JhMDg3NTg5Mzk4YWNiMzk4MWQxNmIwYjM4MmZkYzViYzRkNjE5NDExZDFlM2NkMTNkYWRhYmM4ZjcxNjcwYTI4OGNiOGM4ZmQxZThjYjgxNDYxZWU3N2JlM2VlNGYzZjdmMWFiYWU3NmViNDE2NzVjNzJmODc1ZTg4YWYyMmY=",
+    "languages": ["ko", "en"],
+    "messageBroker": "kafka",
+    "monorepository": true,
+    "nativeLanguage": "ko",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.15.0"
+      }
+    ],
+    "packageName": "com.yon.shop",
+    "pages": [],
+    "prodDatabaseType": "mariadb",
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serverSideOptions": ["messageBroker:kafka"],
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipCommitHook": true,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": ["protractor"],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
