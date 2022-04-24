@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "product",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.15.0"
+      }
+    ],
+    "buildTool": "gradle",
+    "cacheProvider": "hazelcast",
+    "creationTimestamp": 1650813620337,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.8.1",
+    "jwtSecretKey": "YjIyZmRlMDAxYTg0YWE1NThlZTUwMjBkMDI0MTcxYjdlYWIxM2ZhOGM0NzQzNDhmMzRjY2QwODQ4ODczYWFhYTUxMzk3MDcwYTZiOTY4MmVkODRhY2UyY2VkZDg2MTY4ZjJkMDM1MWVlYzcxMjEyYjNlYjkyNDBjZTllY2Q2ZWE=",
+    "languages": ["ko", "en"],
+    "messageBroker": "kafka",
+    "monorepository": true,
+    "nativeLanguage": "ko",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.15.0"
+      }
+    ],
+    "packageName": "com.yon.shop.product",
+    "pages": [],
+    "prodDatabaseType": "mariadb",
+    "reactive": false,
+    "searchEngine": false,
+    "serverPort": "8081",
+    "serverSideOptions": ["messageBroker:kafka"],
+    "serviceDiscoveryType": "eureka",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": true,
+    "skipCommitHook": true,
+    "skipFakeData": false,
+    "skipUserManagement": true,
+    "testFrameworks": ["cucumber"],
+    "websocket": false,
+    "withAdminUi": false
+  }
+}
