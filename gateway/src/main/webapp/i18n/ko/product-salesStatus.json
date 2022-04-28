@@ -1,0 +1,11 @@
+{
+  "gatewayApp": {
+    "SalesStatus": {
+      "null": "",
+      "AVAILABLE": "AVAILABLE",
+      "SOLD_OUT": "SOLD_OUT",
+      "STOPPED": "STOPPED",
+      "ENDED": "ENDED"
+    }
+  }
+}

@@ -6,7 +6,8 @@
   },
   "generator-jhipster:7.8.1": {
     "promptValues": {
-      "nativeLanguage": "ko"
+      "nativeLanguage": "ko",
+      "microservicePath": "C:/Users/zeeyo/projects/shop/product"
     }
   }
 }

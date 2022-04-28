@@ -1,0 +1,43 @@
+{
+  "changelogDate": "20220428170957",
+  "clientRootFolder": "product",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": 0
+    },
+    {
+      "fieldName": "remainingCount",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["min"],
+      "fieldValidateRulesMin": 0
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "SalesStatus",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "AVAILABLE,SOLD_OUT,STOPPED,ENDED"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "product",
+  "microservicePath": "C:/Users/zeeyo/projects/shop/product",
+  "name": "Product",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
